@@ -33,7 +33,7 @@ export default function Formulario() {
           />
         </Card>
         <Card bgcolor="#28a085">
-          <Link href={`/jogo/${qtdePortas}/${comPresente}`}>
+          <Link href={`/jogo/${qtdePortas}/${comPresente}`} passHref>
             <h2 className={styles.link}>Iniciar</h2>
           </Link>
         </Card>
